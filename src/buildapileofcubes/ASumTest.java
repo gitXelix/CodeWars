@@ -2,6 +2,7 @@ package buildapileofcubes;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 public class ASumTest {
     public static void main(String[] args) {
         ASumTest test = new ASumTest();
@@ -11,19 +12,19 @@ public class ASumTest {
         test.test4();
     }
 
-    public void test1() {
+    private void test1() {
         assertEquals(2022, ASum.findNb(4183059834009L));
     }
 
-    public void test2() {
+    private void test2() {
         assertEquals(-1, ASum.findNb(24723578342962L));
     }
 
-    public void test3() {
+    private void test3() {
         assertEquals(4824, ASum.findNb(135440716410000L));
     }
 
-    public void test4() {
+    private void test4() {
         assertEquals(3568, ASum.findNb(40539911473216L));
     }
 
