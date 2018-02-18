@@ -4,12 +4,13 @@ package mumbling;
 https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
  */
 
+
 public class Accumul {
 
     public static String accum(String s) {
 
         int asciiChar;
-        String output = "";
+        StringBuilder output = new StringBuilder();
 
         for(int i = 0; i < s.length(); i++){
             asciiChar = s.charAt(i);
@@ -21,14 +22,14 @@ public class Accumul {
                     if(asciiChar >= 65 && asciiChar <= 90)
                         asciiChar += 32;
                 }
-                output += (char)asciiChar;
+                output.append((char) asciiChar);
             }
 
             if(i < s.length()-1)
-                output += "-";
+                output.append("-");
 
             //System.out.println(output);
         }
-        return output;
+        return output.toString();
     }
 }

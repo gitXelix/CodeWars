@@ -1,8 +1,6 @@
 package mumbling;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public class AccumulTest {
 
@@ -15,7 +13,7 @@ public class AccumulTest {
         assertEquals(expected, actual);
     }
 
-    public void test() {
+    private void test() {
         System.out.println("Fixed Tests accum");
         testing(Accumul.accum("ZpglnRxqenU"), "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu");
         testing(Accumul.accum("NyffsGeyylB"), "N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Llllllllll-Bbbbbbbbbbb");
