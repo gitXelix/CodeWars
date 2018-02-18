@@ -4,9 +4,10 @@ package gapinprimes;
 https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4
  */
 
+
 class GapInPrimes {
 
-    public static boolean isItPrime(int x){
+    private static boolean isItPrime(int x){
         for(int i = 2; i < x; i++){
             if(x % i == 0)
                 return false;
