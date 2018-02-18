@@ -4,7 +4,6 @@ package mumbling;
 https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
  */
 
-
 public class Accumul {
 
     public static String accum(String s) {
