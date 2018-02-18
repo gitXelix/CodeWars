@@ -2,6 +2,7 @@ package mumbling;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 public class AccumulTest {
 
     public static void main(String[] args) {
