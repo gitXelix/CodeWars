@@ -1,6 +1,6 @@
 package sumofthefirstnthtermofseries;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class NthSeriesTest {
     public static void main(String[] args) {

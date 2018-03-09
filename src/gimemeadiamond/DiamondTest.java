@@ -1,6 +1,6 @@
 package gimemeadiamond;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class DiamondTest {
 
